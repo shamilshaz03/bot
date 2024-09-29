@@ -1,0 +1,31 @@
+name: telegram_subscription_bot
+services:
+  - name: subscription-bot
+    image:
+      type: python
+      version: "3.9"
+    build:
+      context: .
+      command: "./start.sh"  # Start script
+    env:
+      - name: MONGO_URI
+        description: "MongoDB connection URI"
+      - name: API_ID
+        description: "Your Telegram API ID"
+      - name: API_HASH
+        description: "Your Telegram API Hash"
+      - name: BOT_TOKEN
+        description: "Your Telegram bot token"
+      - name: SUBSCRIPTION_AMOUNT
+        description: "The subscription amount (default: 500 INR)"
+        default: "500"
+      - name: UPI_ID
+        description: "Your UPI ID for payments"
+      - name: SUBSCRIPTION_PHOTO
+        description: "URL of the subscription image"
+        default: "https://example.com/your-photo.jpg"
+    ports:
+      - protocol: http
+        port: 80
+    regions:
+      - fra
