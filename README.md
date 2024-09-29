@@ -1,8 +1,4 @@
-# Telegram Subscription Bot with Pyrogram
 
-This bot is a Telegram subscription bot where users can subscribe using Google Pay, PhonePe, or Paytm. The bot also saves users' information to MongoDB.
-
-## Deploy with One Click
 # Telegram Subscription Bot with Pyrogram
 
 This bot is a Telegram subscription bot where users can subscribe using Google Pay, PhonePe, or Paytm. The bot also saves users' information to MongoDB.
