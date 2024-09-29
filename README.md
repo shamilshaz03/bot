@@ -3,12 +3,27 @@
 This bot is a Telegram subscription bot where users can subscribe using Google Pay, PhonePe, or Paytm. The bot also saves users' information to MongoDB.
 
 ## Deploy with One Click
+# Telegram Subscription Bot with Pyrogram
+
+This bot is a Telegram subscription bot where users can subscribe using Google Pay, PhonePe, or Paytm. The bot also saves users' information to MongoDB.
+
+## Deploy with One Click
 
 Deploy this bot to Koyeb with one click by using the button below:
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?repository=https://github.com/shamilshaz03/bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?repository=https://github.com/your-repository-url)
 
-_You will need to replace `https://github.com/your-repository-url` with the actual repository URL where the bot code is hosted._
+_Replace `https://github.com/your-repository-url` with the actual repository URL where the bot code is hosted._
+
+## Setup Instructions
+
+### Step 1: Install Requirements
+
+Install the required Python packages using the following command:
+
+```bash
+pip install -r requirements.txt
+
 
 ## Setup Instructions
 
