@@ -6,7 +6,7 @@ This bot is a Telegram subscription bot where users can subscribe using Google P
 
 Deploy this bot to Koyeb with one click by using the button below:
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?repository=https://github.com/your-repository-url)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?repository=https://github.com/shamilshaz03/bot)
 
 _You will need to replace `https://github.com/your-repository-url` with the actual repository URL where the bot code is hosted._
 
